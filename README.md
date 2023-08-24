@@ -1,1 +1,1 @@
-# learning-ui-auto
+# Learning UI Automation Testing
