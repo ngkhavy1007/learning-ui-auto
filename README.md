@@ -8,15 +8,19 @@ npm init playwright@latest
 ```
 npm i -D @playwright/test allure-playwright
 ```
-**3. Run test with Allure report:**
+**3. Install Allure command**
+```
+npm i -D allure-commandline
+```
+**4. Run test with Allure report:**
 ```
 npx playwright test --reporter=line,allure-playwright
 ```
-**4. Generate Allure report:**
+**5. Generate Allure report:**
 ```
 npx allure generate ./allure-results --clean
 ```
-**5. Open HTML Allure report:**
+**6. Open HTML Allure report:**
 ```
 npx allure open ./allure-report
 ```
